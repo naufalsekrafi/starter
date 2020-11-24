@@ -96,9 +96,14 @@
                 <form method="POST" action="{{route('offers.store')}}">
                     @csrf
                     <div class="form-group">
-                        <label for="exampleInputEmail1">{{__('messages.Offer Name')}}</label>
-                        <input type="text" class="form-control" name="name">
+                        <label for="exampleInputEmail1">{{__('messages.Offer NameEn')}}</label>
+                        <input type="text" class="form-control" name="name_en">
                     </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">{{__('messages.Offer NameAr')}}</label>
+                        <input type="text" class="form-control" name="name_ar">
+                    </div>
+
                     @error('name')
                     <div class="alert alert-danger" role="alert">
                         {{$message}}
@@ -114,9 +119,14 @@
                     </div>
                     @enderror
                     <div class="form-group">
-                        <label for="exampleInputPassword1">{{__('messages.Offer details')}}</label>
-                        <input type="text" class="form-control" name="details">
+                        <label for="exampleInputPassword1">{{__('messages.Offer detailsEn')}}</label>
+                        <input type="text" class="form-control" name="details_en">
                     </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">{{__('messages.Offer detailsAr')}}</label>
+                        <input type="text" class="form-control" name="details_ar">
+                    </div>
+
                     @error('details')
                     <div class="alert alert-danger" role="alert">
                         {{$message}}

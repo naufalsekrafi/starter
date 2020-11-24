@@ -15,8 +15,12 @@ return [
 
    'name.required' => 'إسم العرض اجباري يا أستاذ',
     'Add your offer' => 'إضافة عرض جديد',
+    'Offer NameAr' => 'اسم العرض بالعربي ',
     'Offer Name' => 'اسم العرض',
-    'Offer Price' => 'ثمن العرض',
+    'Offer NameEn' => 'اسم العرض بالانجليزي',
+    'Offer detailsAr' => 'تفاصيل العرض بالعربي',
     'Offer details' => 'تفاصيل العرض',
+    'Offer detailsEn' => 'تفاصيل العرض بالانجليزي',
+    'Offer Price' => 'ثمن العرض',
     'Save Offer' => 'تم',
 ];

@@ -15,8 +15,12 @@ return [
 
     'name.required' => 'The name is Required' ,
     'Add your offer' => "Add your offer",
-    'Offer Name' => 'Name',
+    'Offer NameAr' => 'Arabic Offer Name ',
+    'Offer Name' => 'Offer Name ',
+    'Offer NameEn' => 'English Offer Name ',
     'Offer Price' => 'Price',
-    'Offer details' => 'Details',
+    'Offer detailsAr' => 'Arabic Offer Details',
+    'Offer details' => 'Offer Details',
+    'Offer detailsEn' => 'English Offer Details',
     'Save Offer' => 'save',
 ];

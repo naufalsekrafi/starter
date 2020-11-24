@@ -24,15 +24,17 @@ class OfferRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|max:100|unique:offers,name',
+            'name_ar' => 'required|max:100|unique:offers,name_ar',
+            'name_en' => 'required|max:100|unique:offers,name_en',
             'price' => 'required|numeric',
-            'details' => 'required'
+            'details_en' => 'required',
+            'details_ar' => 'required'
         ];
     }
     public function messages(){
         return [
-            'name.required' => trans('messages.name.required'),
-            'name.unique' => trans('messages.name.unique'),
+            'name_ar.required' => trans('messages.name_ar.required'),
+            'name_en.required' => trans('messages.name_en.required'),
             'price.numeric' => 'سعر العرض يجب ان يكون متكونا من ارقام'
         ];
     }
